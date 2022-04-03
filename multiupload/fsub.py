@@ -51,5 +51,5 @@ async def _(event):
 		await event.delete()
 		await anjana.send_file(event.chat_id, random.choice(s), reply_to=event)
 		await event.reply(f"Hey [{xx.first_name}]({xx.id}), I am **MultiUploader**", buttons=[
-				Button.url('Support Chat 💭', 't.me/harp_chat')
+				Button.url('Support Chat 💭', 't.me/KN_URL_Support')
 			])
